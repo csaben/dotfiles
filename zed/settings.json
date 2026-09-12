@@ -1,4 +1,5 @@
 {
+  "cli_default_open_behavior": "existing_window",
   "base_keymap": "VSCode",
   "vim_mode": true,
   "theme": "Catppuccin Mocha",
@@ -13,7 +14,8 @@
     "dock": "left"
   },
   "terminal": {
-    "dock": "bottom"
+    "dock": "bottom",
+    "working_directory": "current_project_directory"
   },
   "agent_servers": {
     "codex-acp": {
@@ -41,4 +43,3 @@
     }
   }
 }
-
