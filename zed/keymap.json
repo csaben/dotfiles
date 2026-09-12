@@ -3,9 +3,8 @@
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-l": "workspace::ActivatePaneRight",
-      "ctrl-space": "terminal_panel::ToggleFocus",
+      "ctrl-space": "workspace::ToggleBottomDock",
       "alt-b": "workspace::ToggleLeftDock",
-      "ctrl-shift-space": "workspace::ToggleBottomDock",
       "alt-v": "agent::ToggleFocus",
       "alt-e": "project_panel::ToggleFocus",
       "alt-f": "file_finder::Toggle",
@@ -22,13 +21,13 @@
     "context": "AgentPanel",
     "bindings": {
       "alt-v": "project_panel::ToggleFocus",
-      "ctrl-shift-space": "workspace::ToggleBottomDock"
+      "ctrl-space": "workspace::ToggleBottomDock"
     }
   },
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-shift-space": "workspace::ToggleBottomDock",
+      "ctrl-space": "workspace::ToggleBottomDock",
       "alt-c": [
         "action::Sequence",
         [
@@ -41,7 +40,7 @@
   {
     "context": "Dock",
     "bindings": {
-      "ctrl-shift-space": "workspace::ToggleBottomDock",
+      "ctrl-space": "workspace::ToggleBottomDock",
       "ctrl-w h": "workspace::ActivatePaneLeft",
       "ctrl-w j": "workspace::ActivatePaneDown",
       "ctrl-w k": "workspace::ActivatePaneUp",
@@ -51,19 +50,19 @@
   {
     "context": "Pane",
     "bindings": {
-      "ctrl-shift-space": "workspace::ToggleBottomDock"
+      "ctrl-space": "workspace::ToggleBottomDock"
     }
   },
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-shift-space": "workspace::ToggleBottomDock"
+      "ctrl-space": "workspace::ToggleBottomDock"
     }
   },
   {
     "context": "ProjectPanel",
     "bindings": {
-      "ctrl-shift-space": "workspace::ToggleBottomDock"
+      "ctrl-space": "workspace::ToggleBottomDock"
     }
   },
   {
