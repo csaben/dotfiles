@@ -25,6 +25,12 @@
     }
   },
   {
+    "context": "AcpThread > Editor",
+    "bindings": {
+      "ctrl-v": "editor::Paste"
+    }
+  },
+  {
     "context": "Editor",
     "bindings": {
       "ctrl-space": "workspace::ToggleBottomDock",
