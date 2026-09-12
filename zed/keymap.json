@@ -4,6 +4,7 @@
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-l": "workspace::ActivatePaneRight",
       "ctrl-space": "workspace::ToggleBottomDock",
+      "ctrl-alt-u": "workspace::Unfollow",
       "alt-b": "workspace::ToggleLeftDock",
       "alt-v": "agent::ToggleFocus",
       "alt-e": "project_panel::ToggleFocus",
@@ -21,19 +22,23 @@
     "context": "AgentPanel",
     "bindings": {
       "alt-v": "project_panel::ToggleFocus",
-      "ctrl-space": "workspace::ToggleBottomDock"
+      "ctrl-space": "workspace::ToggleBottomDock",
+      "ctrl-alt-u": "workspace::Unfollow"
     }
   },
   {
     "context": "AcpThread > Editor",
     "bindings": {
-      "ctrl-v": "editor::Paste"
+      "ctrl-v": "editor::Paste",
+      "ctrl-enter": "agent::Chat",
+      "ctrl-alt-u": "workspace::Unfollow"
     }
   },
   {
     "context": "Editor",
     "bindings": {
       "ctrl-space": "workspace::ToggleBottomDock",
+      "ctrl-alt-u": "workspace::Unfollow",
       "alt-c": [
         "action::Sequence",
         [
@@ -47,6 +52,7 @@
     "context": "Dock",
     "bindings": {
       "ctrl-space": "workspace::ToggleBottomDock",
+      "ctrl-alt-u": "workspace::Unfollow",
       "ctrl-w h": "workspace::ActivatePaneLeft",
       "ctrl-w j": "workspace::ActivatePaneDown",
       "ctrl-w k": "workspace::ActivatePaneUp",
@@ -56,19 +62,22 @@
   {
     "context": "Pane",
     "bindings": {
-      "ctrl-space": "workspace::ToggleBottomDock"
+      "ctrl-space": "workspace::ToggleBottomDock",
+      "ctrl-alt-u": "workspace::Unfollow"
     }
   },
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-space": "workspace::ToggleBottomDock"
+      "ctrl-space": "workspace::ToggleBottomDock",
+      "ctrl-alt-u": "workspace::Unfollow"
     }
   },
   {
     "context": "ProjectPanel",
     "bindings": {
-      "ctrl-space": "workspace::ToggleBottomDock"
+      "ctrl-space": "workspace::ToggleBottomDock",
+      "ctrl-alt-u": "workspace::Unfollow"
     }
   },
   {
