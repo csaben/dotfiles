@@ -1,0 +1,44 @@
+{
+  "base_keymap": "VSCode",
+  "vim_mode": true,
+  "theme": "Catppuccin Mocha",
+  "auto_install_extensions": {
+    "catppuccin": true
+  },
+  "project_panel": {
+    "dock": "left",
+    "starts_open": true
+  },
+  "agent": {
+    "dock": "left"
+  },
+  "terminal": {
+    "dock": "bottom"
+  },
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    }
+  },
+  "edit_predictions": {
+    "provider": "none"
+  },
+  "show_edit_predictions": false,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "inlayHints": {
+          "lifetimeElisionHints": {
+            "enable": "skip_trivial",
+            "useParameterNames": true
+          }
+        }
+      }
+    }
+  }
+}
+

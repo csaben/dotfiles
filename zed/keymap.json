@@ -1,0 +1,78 @@
+[
+  {
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-space": "terminal_panel::ToggleFocus",
+      "alt-b": "workspace::ToggleLeftDock",
+      "ctrl-shift-space": "workspace::ToggleBottomDock",
+      "alt-v": "agent::ToggleFocus",
+      "alt-e": "project_panel::ToggleFocus",
+      "alt-f": "file_finder::Toggle",
+      "alt-shift-c": [
+        "agent::NewExternalAgentThread",
+        { "agent": "codex-acp" }
+      ],
+      "ctrl-p": "file_finder::Toggle",
+      "ctrl-shift-f": "pane::DeploySearch",
+      "f12": "editor::GoToDefinition"
+    }
+  },
+  {
+    "context": "AgentPanel",
+    "bindings": {
+      "alt-v": "project_panel::ToggleFocus",
+      "ctrl-shift-space": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-space": "workspace::ToggleBottomDock",
+      "alt-c": [
+        "action::Sequence",
+        [
+          "agent::AddSelectionToThread",
+          "agent::ToggleFocus"
+        ]
+      ]
+    }
+  },
+  {
+    "context": "Dock",
+    "bindings": {
+      "ctrl-shift-space": "workspace::ToggleBottomDock",
+      "ctrl-w h": "workspace::ActivatePaneLeft",
+      "ctrl-w j": "workspace::ActivatePaneDown",
+      "ctrl-w k": "workspace::ActivatePaneUp",
+      "ctrl-w l": "workspace::ActivatePaneRight"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-shift-space": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-shift-space": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "ctrl-shift-space": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space f": "file_finder::Toggle",
+      "space /": "pane::DeploySearch",
+      "space a": "agent::ToggleFocus",
+      "space p": "editor::ToggleEditPrediction"
+    }
+  }
+]
