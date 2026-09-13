@@ -23,7 +23,8 @@
     }
   },
   "edit_predictions": {
-    "provider": "none"
+    "provider": "zed",
+    "mode": "eager"
   },
   "show_edit_predictions": false,
   "telemetry": {

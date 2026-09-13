@@ -5,6 +5,7 @@
       "ctrl-l": "workspace::ActivatePaneRight",
       "ctrl-space": "workspace::ToggleBottomDock",
       "ctrl-alt-u": "workspace::Unfollow",
+      "ctrl-alt-e": "workspace::ToggleEditPrediction",
       "alt-b": "workspace::ToggleLeftDock",
       "alt-v": "agent::ToggleFocus",
       "alt-e": "project_panel::ToggleFocus",
@@ -39,6 +40,7 @@
     "bindings": {
       "ctrl-space": "workspace::ToggleBottomDock",
       "ctrl-alt-u": "workspace::Unfollow",
+      "ctrl-alt-e": "workspace::ToggleEditPrediction",
       "alt-c": [
         "action::Sequence",
         [
