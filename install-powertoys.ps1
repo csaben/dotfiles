@@ -58,4 +58,4 @@ if ($powerToysExe) {
     Start-Process -FilePath $powerToysExe
 }
 
-Write-Host 'Installed PowerToys and configured Alt+Enter -> F11 and Alt+S -> Win+Shift+S.'
+Write-Host 'Installed PowerToys and configured Caps Lock -> Escape, Alt+Enter -> F11, and Alt+S -> Win+Shift+S.'

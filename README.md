@@ -26,6 +26,7 @@ override Zed's normal configuration directory.
 
 Install PowerToys and configure these global Keyboard Manager shortcuts:
 
+- `Caps Lock` -> `Escape`
 - `Alt+Enter` -> `F11`
 - `Alt+S` -> `Win+Shift+S`
 
