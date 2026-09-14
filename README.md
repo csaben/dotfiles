@@ -36,3 +36,20 @@ irm https://raw.githubusercontent.com/csaben/dotfiles/main/install-powertoys.ps1
 Existing PowerToys and Keyboard Manager settings are preserved as timestamped
 backups before they are changed. `DOTFILES_BASE_URL` can also override the
 source location for this installer.
+
+## tmux and psmux
+
+On Windows, install native psmux and Clark's matching configuration:
+
+```powershell
+irm https://raw.githubusercontent.com/csaben/dotfiles/main/tmux/install.ps1 | iex
+```
+
+On Linux or macOS, install tmux, TPM, plugins, and the native configuration:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/csaben/dotfiles/main/tmux/install.sh | sh
+```
+
+Both configurations use `Alt+b` as the prefix and preserve an existing config
+as a timestamped backup. Set `DOTFILES_BASE_URL` to override their source.
